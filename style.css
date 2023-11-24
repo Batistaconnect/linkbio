@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ 
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+:root{
+    font-size: 62.5%;
+}
+
+main{
+    max-width: 33.0rem;
+    margin-top: 8.9rem;
+    margin-inline: auto;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+main img{
+    margin-bottom: 1.5rem;
+    max-width: 12.0rem;
+    
+}
+
+h1{
+    font-family: "Monument Extended Bold";
+    font-size: 2.4rem;
+    font-weight: 800;
+    margin-bottom: 5px;
+
+    color: #401F0C;
+}
+
+.clock ul{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: normal;
+    color: #401F0C;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+
+}
+
+.clock ul span{
+    font-size: 2.0rem;
+    font-weight: 800;
+
+    color: #EB9F42;;
+}
+
+button{
+    font-family: "Monument Extended Bold";
+    
+    border-radius: 50px;
+    background: #401F0C;
+    box-shadow: 0px 11px 21px 0px rgba(0, 0, 0, 0.25);
+    
+    margin-top: 1.7rem;
+    cursor: pointer;
+    border: none;
+
+    font-size: 20px;
+    padding: 2.0rem 11.2rem;
+    color: #FFF;
+    
+    /*codigo zoom css
+    max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;*/
+}
+
+button:hover{
+    background: #ffffff;
+    color: #EB9F42;
+    
+    /*codigo zoom css
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);*/
+}
+
+.events{
+    margin-top: 6.0rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    align-items: center;
+
+}
+
+.events span{
+    color: #EB9F42;
+
+}
+
+.events .caixa{
+    width: 30.0rem;
+    height: 30.0rem;
+    background-color: #401F0C;
+    border-radius: 2.0rem;
+    background-size: cover;
+
+}
+
+.contact{
+    margin-top: 5.0rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact a{ 
+    max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+
+.contact a:hover{  
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
